@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.image-container {
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#responsive-image {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.digit {
+    font-size: 70px;
+    font-weight: bold;
+    color: #E6F7FE;
+    text-align: center;
+    font-family: "Caros Soft Medium", "Neometeic Alt Medium", sans-serif;
+    position: absolute;
+    top: 21.5%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
